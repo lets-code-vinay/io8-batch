@@ -49,3 +49,10 @@
 - 2. to clear download history --> ctrl + j
 
 ## open only necessary tabs
+
+## No unnecessary software installed
+
+- Install only those application which are in use
+- Don't install any games
+- Don't install any antivirus
+- Don't keep any large size videos or movies
