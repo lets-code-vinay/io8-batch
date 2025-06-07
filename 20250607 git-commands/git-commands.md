@@ -11,3 +11,25 @@
 2. git status -->
    - Git status is used to check status of current activity
    - if any file or folder is in red state, that's mean there are changes in that file
+   - if any file shows in green color, that's mean files are added to push for GitHub
+3. git add .
+   - git add . is used to add all files to push on github
+4. git commit -m "type any message"
+   - It will add reference msg to identify commits
+5. git push origin main
+   - Codes will be pushed to gitHub main branch
+6. git pull origin main
+   - It brings latest codes from
+7. git branch list
+
+   ## Trick to remind git add, commit and push commands
+
+   ### ACP Praduman
+
+   ### ACP
+
+   ### A --> git add .
+
+   ### C --> git commit -m 'msg'
+
+   ### p --> git push origin main
