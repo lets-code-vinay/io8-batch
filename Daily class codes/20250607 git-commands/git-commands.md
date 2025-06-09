@@ -20,16 +20,23 @@
    - Codes will be pushed to gitHub main branch
 6. git pull origin main
    - It brings latest codes from
-7. git branch list
+7. git branch
+   - to check the list of all branches
+   - active branch will be highlighted by \*
+8. git branch footer
+   - You can create new branch by `git branch footer`
+9. git checkout footer
+   - to change branch add `git checkout branch_name`
+10.
 
-   ## Trick to remind git add, commit and push commands
+## Trick to remind git add, commit and push commands
 
-   ### ACP Praduman
+### ACP Praduman
 
-   ### ACP
+### ACP
 
-   ### A --> git add .
+### A --> git add .
 
-   ### C --> git commit -m 'msg'
+### C --> git commit -m 'msg'
 
-   ### p --> git push origin main
+### p --> git push origin main
