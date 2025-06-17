@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internal Styling</title>
+    <style>
+      /* --- style by tag name  */
+      /* ul {
+        color: red;
+      }
+
+      li {
+        color: rgb(56, 42, 165);
+      }
+
+      ol li {
+        color: black;
+      } */
+
+      /* li:nth-child(even) {
+        color: red;
+      }
+      li:nth-child(odd) {
+        color: blue;
+      } */
+
+      /*  ------  style by class   ------------*/
+      .capAmerica {
+        color: gold;
+      }
+      .capAmerica {
+        background-color: red;
+        color: black;
+      }
+
+      .fruits {
+        color: yellow;
+      }
+
+      .para,
+      .info {
+        color: rgb(14, 3, 63);
+        background-color: rgb(188, 218, 243);
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+      }
+
+      /* .info {
+        color: rgb(43, 63, 3);
+        background-color: rgb(188, 218, 243);
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+      } */
+
+      /*  ------  style by id   ------------*/
+
+      #iron {
+        background-color: lightblue;
+        color: rgb(3, 3, 75);
+      }
+
+      .avenger {
+        color: blue;
+      }
+
+      .image-home {
+        border: 2px solid rgb(145, 4, 4);
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body style="background-color: lightcoral; color: brown">
+    <main>
+      <section>
+        <p class="fruits para">
+          Producer Eichinger bought the film rights to Süskind's novel in 2000,
+          and began writing the screenplay together with Birkin. Tykwer was
+          selected as the director, and joined the two in developing the
+          screenplay in 2003. Principal photography began July 12, 2005, and
+          concluded October 16, 2005. Filming took place in Spain, Germany and
+          France. The film was made on a budget of €50 million (est. $60
+          million), making it one of the most expensive German films.
+        </p>
+
+        <ul>
+          <li class="avenger">Thor</li>
+          <li class="avenger">Hulk</li>
+          <li class="avenger" id="iron">Ironman</li>
+          <li class="avenger capAmerica">Cap America</li>
+          <li class="avenger">Antman</li>
+          <li class="avenger">Dr. Strange</li>
+          <li class="avenger">Thanos</li>
+        </ul>
+
+        <ol>
+          <li class="fruits">Apple</li>
+          <li class="fruits">Banana</li>
+          <li class="fruits">Cheery</li>
+          <li class="fruits">Dates</li>
+          <li class="fruits" id="fig">Fig</li>
+          <li class="fruits">Mango</li>
+          <li class="fruits">Thanos</li>
+        </ol>
+
+        <p class="info">This is p tag for InfoXygens</p>
+        <ul>
+          <li>Thor</li>
+          <li>Hulk</li>
+          <li>Ironman</li>
+          <li>Cap America</li>
+          <li>Antman</li>
+          <li>Dr. Strange</li>
+          <li>Thanos</li>
+        </ul>
+        <ul>
+          <li>Thor</li>
+          <li>Hulk</li>
+          <li>Ironman</li>
+          <li>Cap America</li>
+          <li>Antman</li>
+          <li>Dr. Strange</li>
+          <li>Thanos</li>
+        </ul>
+      </section>
+
+      <img class="image-home" src="../assets/logos/home.png" alt="home" />
+    </main>
+  </body>
+</html>
