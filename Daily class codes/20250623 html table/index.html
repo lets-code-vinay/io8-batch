@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>20250623 html table</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(238, 238, 245);
+      }
+      .main-container {
+        border: 1px solid black;
+        height: 500px;
+      }
+
+      table {
+        border: 1px solid red;
+        background-color: rgb(243, 243, 234);
+        border-collapse: collapse;
+        margin: 5px;
+      }
+
+      th,
+      td {
+        border: 1px solid red;
+        padding: 5px;
+        border-right: none;
+        border-left: none;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: rgb(237, 192, 192);
+      }
+      tbody tr:nth-child(even) {
+        background-color: antiquewhite;
+      }
+
+      .round {
+        width: 50px;
+        height: 50px;
+        background-color: yellowgreen;
+        border-radius: 50%;
+      }
+      #red {
+        background-color: red;
+      }
+      #yellow {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main-container">
+      <h1>20250623 html table</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Job</th>
+            <th>Email</th>
+            <th>Telephone</th>
+            <th>Picture</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>karan</td>
+            <td>Student</td>
+            <td>karan@infoxygen.com</td>
+            <td>123123</td>
+            <td>
+              <img
+                src="../assets/images/user-1.webp"
+                alt="random picture"
+                width="100px"
+              />
+            </td>
+            <td>
+              <a href="https://www.infoxygen.com" target="_blank">Infoxygen</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Honey</td>
+            <td>Engineer</td>
+            <td>honey@infoxygen.com</td>
+            <td>787878</td>
+            <td>
+              <img
+                src="../assets/images/user-2.webp"
+                alt="random picture"
+                width="100px"
+              />
+            </td>
+            <td>
+              <a
+                href="https://imgs.search.brave.com/t7203X9kMtfN7vIqvoc1RL_QS-XnjV4aT0Ir9cXL0dw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jaGF0/a2kuY29tL2Fzc2V0/cy9pbWcvaG9tZS9y/YW5kb20td29tZW4u/cG5n"
+                target="_blank"
+                >Link</a
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td>Sadhna</td>
+            <td>Doctor</td>
+            <td>sadhna@infoxygen.com</td>
+            <td>898989</td>
+            <td>
+              <img
+                src="../assets/images/user-3.webp"
+                alt="random picture"
+                width="100px"
+              />
+            </td>
+            <td>
+              <a href="../20250616 html routing/index.html" target="_blank"
+                >Page</a
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="round" id="red"></div>
+            </td>
+            <td>
+              <div class="round" id="yellow"></div>
+            </td>
+            <td>
+              <div class="round"></div>
+            </td>
+            <td>
+              <div class="round"></div>
+            </td>
+            <td>
+              <div class="round"></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
