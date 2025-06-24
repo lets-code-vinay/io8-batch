@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table-2</title>
+    <style>
+      table {
+        border: 1px solid green;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid rgb(27, 5, 95);
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Name</th>
+          <th>class</th>
+          <th>Age</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td rowspan="2">Alice</td>
+          <td>10</td>
+          <td>15</td>
+
+          <td rowspan="3">Germany</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td colspan="2">10</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Julie</td>
+          <td>6</td>
+          <td>16</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Jordan</td>
+          <td colspan="3">11</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>David</td>
+          <td>5</td>
+          <td>15</td>
+
+          <td>Norway</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
