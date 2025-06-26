@@ -56,3 +56,4 @@
 - Don't install any games
 - Don't install any antivirus
 - Don't keep any large size videos or movies
+- 
