@@ -64,7 +64,8 @@ div {
 ### Border Properties
 
 1. **border-style**:  
-    `solid`, `dashed`, `dotted`, `double`, `inset`, `outset`, `ridge`, `groove`, `hidden`, `none`
+    `solid`, `dashed`, `dotted`, `double`, `inset`, `outset`, `ridge`, `groove`,
+   `double`, `hidden`, `none`
 
    ```css
    border-style: dashed;
