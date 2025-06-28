@@ -1,0 +1,287 @@
+/* universal selector*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(232, 217, 217);
+}
+
+.main-container {
+  background-color: #78ab78;
+  height: 600px;
+}
+
+.border-container {
+  background-color: #ab67ba;
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.border-container .border-item:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.border-container .border-item:nth-child(even) {
+  background-color: #f077f0;
+}
+
+.border-container .border-item-1:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.border-container .border-item-1:nth-child(even) {
+  background-color: #f07777;
+}
+.border-item {
+  /* border: 1px solid black; */
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.border-item-1 {
+  width: 400px;
+  height: 200px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+/**
+border shorthand
+border: <border-width> <border-style> <border-color>;
+1. border: 2px solid black;
+2. border: 1px dashed red;
+3. border: 3px dotted blue;
+*/
+.item-1 {
+  border: 2px solid black;
+}
+/**
+border-style
+1. solid
+2. dashed
+3. dotted
+4. double
+5. groove
+6. ridge    
+7. inset
+8. outset
+9. none
+
+
+*/
+.item-2 {
+  border-style: solid;
+}
+
+/**
+border-width
+1. thin
+2. medium
+3. thick
+4. 1px
+
+*/
+.item-3 {
+  /* border-width: thin; */
+  /* border-width: thick; */
+  /* border-width: medium; */
+  border-width: 2px;
+
+  border-style: dashed;
+}
+
+.item-4 {
+  border-color: red;
+  border-style: groove;
+}
+
+.item-5 {
+  /*
+  border-width: 3px; 
+  border-style: groove;
+  border-color: red;
+  */
+
+  border: 3px groove red;
+}
+
+.item-6 {
+  border: 4px dotted black;
+}
+
+.item-7 {
+  border: 4px dashed black;
+}
+
+.item-8 {
+  border: 6px groove black;
+}
+
+.item-9 {
+  border: 6px inset black;
+}
+
+.item-10 {
+  border: 6px outset black;
+}
+
+.item-11 {
+  border: 6px ridge black;
+}
+
+.item-12 {
+  /* border: 6px none black; */
+  border: none;
+}
+
+.item-13 {
+  border-radius: 10px;
+}
+
+.item-14 {
+  border-radius: 30px;
+}
+
+.item-15 {
+  border-radius: 100px;
+}
+
+.item-16 {
+  border-radius: 10%;
+}
+
+.item-17 {
+  border-radius: 30%;
+}
+
+.item-18 {
+  border-radius: 50%;
+}
+
+.item-19 {
+  border-radius: 50px;
+}
+
+.item-20 {
+  border-radius: 10%;
+}
+
+.item-21 {
+  border-radius: 100px;
+  border: 2px solid black;
+}
+
+.item-22 {
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.item-23 {
+  border-top: 2px solid black;
+}
+
+.item-24 {
+  border-right: 2px solid black;
+}
+
+.item-25 {
+  border-left: 2px solid black;
+}
+
+.item-26 {
+  border-bottom: 2px solid black;
+}
+
+.item-27 {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.item-28 {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.item-29 {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.item-30 {
+  border: 3px solid black;
+  border-right: none;
+}
+
+.item-31 {
+  border: 3px solid black;
+  border-right: none;
+  border-bottom: none;
+}
+
+.item-32 {
+  border: 3px solid black;
+  border-top-left-radius: 100px;
+}
+
+.item-33 {
+  border: 3px solid black;
+  border-top-right-radius: 100px;
+}
+.item-34 {
+  border: 3px solid black;
+  border-bottom-left-radius: 100px;
+}
+
+.item-35 {
+  border: 3px solid black;
+  border-bottom-left-radius: 100%;
+}
+
+.item-36 {
+  border: 3px solid black;
+  border-bottom-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+.item-37 {
+  border: 3px solid black;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.item-38 {
+  border: 3px solid black;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.item-39 {
+  border: 3px solid black;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.item-40 {
+  border: 3px solid black;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.item-41 {
+  border: 3px solid black;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 16px;
+
+  border-bottom-right-radius: 160px;
+}
