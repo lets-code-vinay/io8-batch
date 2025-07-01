@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px  -->  16px * 62.5% == 10px*/
+}
+
+body {
+  background-image: url(../assets/images/motu.png);
+}
+
+.main-container {
+  background-color: red;
+  /* height: 100vh; */
+  /* width: 80vw; */
+  height: 1200px;
+}
+
+.container {
+  width: 80%;
+  height: 50%;
+  background-color: blanchedalmond;
+}
+
+.container-header {
+  background-color: yellowgreen;
+  height: 50%;
+  width: 50%;
+}
+
+.main-container img {
+  border: 1px solid black;
+  padding: 5px;
+  width: 50vw;
+  height: 30%;
+}
+
+.root {
+  height: 20%;
+  width: 80%;
+  margin: 10px auto;
+  /* background-color: rgb(187, 187, 206); */
+  padding: 10px;
+  font-size: 10px;
+}
+
+.text {
+  font-size: 2em;
+}
+
+.text-2 {
+  font-size: 2.5em;
+  /** color by Hex */
+  /* #RRGGBB */
+  /* # 0-f  */
+  background-color: #000000; /** black */
+  background-color: #ffffff; /** white */
+  background-color: #000; /** black */
+  background-color: #fff; /** white */
+  background-color: #ff0000; /** red */
+  background-color: #00ff00; /** green */
+  background-color: #0000ff; /** blue */
+  background-color: #7845ab; /**  */
+  background-color: #dbf9b8;
+  background-color: #dbf9b855;
+}
+
+.head-90 {
+  font-size: 4rem;
+  /* color by name*/
+  background-color: hotpink;
+  color: darkblue;
+}
+
+.head-91 {
+  font-size: 5.54rem;
+
+  /* color by RGB */
+  /* RGB -- Red Green Blue*/
+  /*        0-255, 0-255, 0-255 */
+  /* background-color: rgb(255, 0, 0); -- red */
+  background-color: rgb(0, 255, 0); /*-- green*/
+  background-color: rgb(0, 0, 255); /*-- blue*/
+  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0); /*-- black*/
+  color: rgb(255, 99, 71); /*-- tomato*/
+}
+
+.head-92 {
+  font-size: 4.89rem;
+  background-color: rgba(48, 5, 42, 0.8);
+  color: rgb(165, 180, 194);
+}
